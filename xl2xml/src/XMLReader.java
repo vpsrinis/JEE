@@ -1,10 +1,4 @@
-/**
- * @author Shaene M. Siders, Dragon Under Glass
- * http://www.DragonUnderGlass.com
- * date: 2010
- */
 
-//File and Exception handling imports
 import java.io.FileReader;
 import java.io.IOException;
 
@@ -24,18 +18,9 @@ import nu.xom.Element;
 
 public class XMLReader {
 
-	/**
-	 * @param args is not used
-	 */
+	
 	public static void main(String[] args) {
 	
-	// Read an XML file called C:\Planet Power\weather_service.xml
-    // Create a FileReader to hold the file.  Use double back-slashes to create one "escaped" slash.
-    // Use error handling (try/catch) around its creation in case 
-    // the file to read does not exist.  Also,
-	// XML files have all the worries of traditional files
-	// plus additional problems, such as not being well-formed XML.
-	// Catch possible errors IOException and ParsingException
 	
 	try {
 		
