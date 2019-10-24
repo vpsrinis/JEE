@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> 
+<weather>
+	<service-provider>Green Weather</service-provider>
+	<date>1/1/2030</date>
+	<time>05:00:00</time>
+	<temperature kind="current">
+		<value>75</value>
+		<units>Degrees Fahrenheit</units>
+	</temperature>
+	<dawn>07:00:00</dawn>
+	<dusk>17:00:00</dusk>
+	<comments>
+	Expect record high temperatures due to global warming.
+	</comments>
+</weather>
